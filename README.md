@@ -92,14 +92,14 @@ See `CONTRIBUTING.md` for coding standards, branching, and PR process, `CODEOWNE
 
 | Name | Role |
 |---|---|
-| Precious Ayomah | **Project Lead** |
-| Somuah Kofi Anim | Default owner / build & bootstrap |
+| Precious Ayomah | Project Lead / Default Owner |
+| Somuah Kofi Anim | Build & bootstrap |
 | Stephanie Apenteng | Process, docs & README owner |
-| Priscilla Akuokor | CI/CD & deployment |
+| Joseph Gyimah | CI/CD & deployment |
 | Roselyn Sakyi | Data layer, cost splitter & receipts |
 | Horoya Razak | Auth & identity |
 | Aaron Tetteh | Real-time / collaborative cart (Stream A) |
-| Joseph Gyimah | Client services |
+| Priscilla Akuokor | Client services |
 | Olivia Kwateng | Orders & payments (Stream C) |
 | Obadiah Donkor | Sessions, catalog & tests |
 | Emmanuel Grant Boamah | Config & participants |
