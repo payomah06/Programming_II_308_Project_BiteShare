@@ -100,9 +100,9 @@ See `CONTRIBUTING.md` for coding standards, branching, and PR process, `CODEOWNE
 | Horoya Razak | Auth & identity |
 | Aaron Tetteh | Real-time / collaborative cart (Stream A) |
 | Priscilla Akuokor | Client services |
-| Olivia Kwateng | Orders & payments (Stream C) |
+| Emmanuel Grant Boamah | Orders & payments (Stream C) |
 | Obadiah Donkor | Sessions, catalog & tests |
-| Emmanuel Grant Boamah | Config & participants |
+| Olivia Kwateng | Config & participants |
 
 ## Core domain model
 
