@@ -19,18 +19,18 @@
 *                                                       @Precious @Stephanie
 
 # --- Phase 0 - foundations / project-wide ---
-/.github/                                              @Priscilla @Precious
-/.github/workflows/                                    @Priscilla
+/.github/                                              @Joseph @Precious
+/.github/workflows/                                    @Joseph
 /CONTRIBUTING.md                                       @Stephanie
 /README.md                                             @Stephanie
 /docs/                                                  @Stephanie
 /BiteShare.sln                                         @Somuah
 /Directory.Build.props                                 @Somuah
 /src/BiteShare.Api/Program.cs                          @Somuah
-/src/BiteShare.Client/Program.cs                       @Joseph
-/src/BiteShare.Api/appsettings.json                    @Emmanuel
-/src/BiteShare.Api/appsettings.Development.json        @Emmanuel
-/src/BiteShare.Client/wwwroot/appsettings.json         @Emmanuel
+/src/BiteShare.Client/Program.cs                       @Priscilla
+/src/BiteShare.Api/appsettings.json                    @Olivia
+/src/BiteShare.Api/appsettings.Development.json        @Olivia
+/src/BiteShare.Client/wwwroot/appsettings.json         @Olivia
 
 # --- Data & Auth layer ---
 /src/BiteShare.Data/                                    @Roselyn
@@ -38,18 +38,18 @@
 /src/BiteShare.Api/Services/JwtTokenService.cs         @Horoya
 /src/BiteShare.Api/Services/IJwtTokenService.cs        @Horoya
 /src/BiteShare.Api/Services/CurrentParticipant.cs      @Horoya
-/src/BiteShare.Api/Services/IJoinCodeGenerator.cs      @Emmanuel
-/src/BiteShare.Api/Controllers/ParticipantsController.cs @Emmanuel
+/src/BiteShare.Api/Services/IJoinCodeGenerator.cs      @Olivia
+/src/BiteShare.Api/Controllers/ParticipantsController.cs @Olivia
 
 # --- Stream A - Collaborative Cart (real-time) ---
 /src/BiteShare.Api/Hubs/OrderHub.cs                    @Aaron
 /src/BiteShare.Api/Controllers/CartController.cs       @Aaron
 /src/BiteShare.Client/Services/OrderHubService.cs      @Aaron
-/src/BiteShare.Client/Pages/                            @Precious @Joseph
+/src/BiteShare.Client/Pages/                            @Precious @Priscilla
 /src/BiteShare.Client/wwwroot/                          @Precious
-/src/BiteShare.Client/Services/ApiClient.cs            @Joseph
-/src/BiteShare.Client/Services/AuthHandlers.cs         @Joseph
-/src/BiteShare.Client/Services/AuthTokenStore.cs       @Joseph
+/src/BiteShare.Client/Services/ApiClient.cs            @Priscilla
+/src/BiteShare.Client/Services/AuthHandlers.cs         @Priscilla
+/src/BiteShare.Client/Services/AuthTokenStore.cs       @Priscilla
 
 # --- Stream B - Cost Splitter & Receipts ---
 /src/BiteShare.Api/Controllers/ReceiptsController.cs   @Roselyn
@@ -59,21 +59,21 @@
 /src/BiteShare.Api/Services/IReceiptPdfService.cs      @Roselyn
 
 # --- Stream C - Order Status & Payments ---
-/src/BiteShare.Api/Controllers/OrdersController.cs     @Olivia @Horoya
-/src/BiteShare.Api/Services/StripePaymentService.cs    @Olivia
-/src/BiteShare.Api/Services/IStripePaymentService.cs   @Olivia
+/src/BiteShare.Api/Controllers/OrdersController.cs     @Emmanuel @Horoya
+/src/BiteShare.Api/Services/StripePaymentService.cs    @Emmanuel
+/src/BiteShare.Api/Services/IStripePaymentService.cs   @Emmanuel
 
 # --- Sessions & catalog ---
 /src/BiteShare.Api/Controllers/SessionsController.cs   @Obadiah
 /src/BiteShare.Api/Controllers/MenuItemsController.cs  @Obadiah
 
 # --- Shared contracts - anyone touching these should expect broad review ---
-/src/BiteShare.Shared/                                  @Aaron @Olivia @Roselyn @Horoya
+/src/BiteShare.Shared/                                  @Aaron @Emmanuel @Roselyn @Horoya
 
 # --- Tests ---
 /tests/                                                 @Obadiah
 
 # --- Deployment ---
-/.github/workflows/ci.yml                              @Priscilla @Joseph
-/Dockerfile                                             @Priscilla @Joseph
-/render.yaml                                            @Priscilla @Joseph
+/.github/workflows/ci.yml                              @Joseph @Priscilla
+/Dockerfile                                             @Joseph @Priscilla
+/render.yaml                                            @Joseph @Priscilla
