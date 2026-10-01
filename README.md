@@ -4,25 +4,25 @@ BiteShare is a collaborative group-ordering app: a host opens a session, partici
 
 ## Tech stack
 
-| Layer | Tech |
-|---|---|
-| API | ASP.NET Core Web API (minimal API / controllers) |
-| Client | Blazor WebAssembly |
-| Shared | Common DTOs/models used by API and Client |
-| Data | EF Core + PostgreSQL (Npgsql) |
-| Real-time | SignalR (`OrderHub`) |
-| Auth | ASP.NET Core Identity + JWT, plus anonymous guest-participant tokens |
-| Payments | Stripe .NET SDK |
-| Hosting | Render (Docker web service + Postgres), auto-deployed from `main` |
+| Layer     | Tech                                                                 |
+| --------- | -------------------------------------------------------------------- |
+| API       | ASP.NET Core Web API (minimal API / controllers)                     |
+| Client    | Blazor WebAssembly                                                   |
+| Shared    | Common DTOs/models used by API and Client                            |
+| Data      | EF Core + PostgreSQL (Npgsql)                                        |
+| Real-time | SignalR (`OrderHub`)                                                 |
+| Auth      | ASP.NET Core Identity + JWT, plus anonymous guest-participant tokens |
+| Payments  | Stripe .NET SDK                                                      |
+| Hosting   | Render (Docker web service + Postgres), auto-deployed from `main`    |
 
 ## Solution layout
 
-```
+```text
 BiteShare.sln
 src/
   BiteShare.Api/       ASP.NET Core Web API, controllers, SignalR hub
   BiteShare.Client/    Blazor WebAssembly front end
-  BiteShare.Shared/    DTOs and models shared by Api and Client
+  BiteShare.Shared/    DTOs and models shared by API and Client
   BiteShare.Data/      EF Core DbContext + migrations
 tests/
   BiteShare.Tests/     Unit + integration tests
@@ -82,27 +82,27 @@ used instead of `ConnectionStrings:Default`.
 
 ## Further docs
 
-- [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) — system diagram, the two-JWT-type model, SignalR reconnect behavior, cost-splitting rules
-- [`docs/API.md`](docs/API.md) — endpoint reference
-- [`docs/MIGRATIONS.md`](docs/MIGRATIONS.md) — how EF Core migrations work in this repo (Postgres, applied on startup)
+* [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) — system diagram, the two-JWT-type model, SignalR reconnect behavior, cost-splitting rules
+* [`docs/API.md`](docs/API.md) — endpoint reference
+* [`docs/MIGRATIONS.md`](docs/MIGRATIONS.md) — how EF Core migrations work in this repo (Postgres, applied on startup)
 
 ## Team & roles
 
 See `CONTRIBUTING.md` for coding standards, branching, and PR process, `CODEOWNERS` for per-area ownership, and the project execution guide for the full phase-by-phase plan.
 
-| Name | Role |
-|---|---|
-| Precious Ayomah | Project Lead / Default Owner |
-| Somuah Kofi Anim | Build & bootstrap |
-| Stephanie Apenteng | Process, docs & README owner |
-| Joseph Gyimah | CI/CD & deployment |
-| Roselyn Sakyi | Data layer, cost splitter & receipts |
-| Horoya Razak | Auth & identity |
-| Aaron Tetteh | Real-time / collaborative cart (Stream A) |
-| Priscilla Akuokor | Client services |
-| Emmanuel Grant Boamah | Orders & payments (Stream C) |
-| Obadiah Donkor | Sessions, catalog & tests |
-| Olivia Kwateng | Config & participants |
+| Name                  |    ID | Role                                      |
+| --------------------- | ----: | ----------------------------------------- |
+| Precious Ayomah       | 58321 | Project Lead / Default Owner              |
+| Somuah Kofi Anim      | 74106 | Build & bootstrap                         |
+| Stephanie Apenteng    | 29548 | Process, docs & README owner              |
+| Joseph Gyimah         | 86413 | CI/CD & deployment                        |
+| Roselyn Sakyi         | 31795 | Data layer, cost splitter & receipts      |
+| Horoya Razak          | 62047 | Auth & identity                           |
+| Aaron Tetteh          | 45982 | Real-time / collaborative cart (Stream A) |
+| Priscilla Akuokor     | 17364 | Client services                           |
+| Emmanuel Grant Boamah | 90851 | Orders & payments (Stream C)              |
+| Obadiah Donkor        | 53629 | Sessions, catalog & tests                 |
+| Olivia Kwateng        | 28470 | Config & participants                     |
 
 ## Core domain model
 
