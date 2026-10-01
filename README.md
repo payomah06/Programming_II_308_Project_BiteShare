@@ -102,7 +102,7 @@ See `CONTRIBUTING.md` for coding standards, branching, and PR process, `CODEOWNE
 | Priscilla Akuokor     | 17364 | Client services                           |
 | Emmanuel Grant Boamah | 90851 | Orders & payments (Stream C)              |
 | Obadiah Donkor        | 53629 | Sessions, catalog & tests                 |
-| Olivia Kwateng        | 28470 | Config & participants                     |
+| Olivia Kwateng        | 22041101 | Config & participants                     |
 
 ## Core domain model
 
