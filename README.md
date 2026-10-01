@@ -92,7 +92,7 @@ See `CONTRIBUTING.md` for coding standards, branching, and PR process, `CODEOWNE
 
 | Name                  |    ID | Role                                      |
 | --------------------- | ----: | ----------------------------------------- |
-| Precious Ayomah       | 58321 | Project Lead / Default Owner              |
+| Precious Ayomah       | 22176813 | Project Lead / Default Owner              |
 | Somuah Kofi Anim      | 74106 | Build & bootstrap                         |
 | Stephanie Apenteng    | 29548 | Process, docs & README owner              |
 | Joseph Gyimah         | 86413 | CI/CD & deployment                        |
