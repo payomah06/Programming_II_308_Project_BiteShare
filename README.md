@@ -97,7 +97,7 @@ See `CONTRIBUTING.md` for coding standards, branching, and PR process, `CODEOWNE
 | Stephanie Apenteng    | 29548 | Process, docs & README owner              |
 | Joseph Gyimah         | 86413 | CI/CD & deployment                        |
 | Roselyn Sakyi         | 31795 | Data layer, cost splitter & receipts      |
-| Horoya Razak          | 62047 | Auth & identity                           |
+| Horaya Razak          | 22236215 | Auth & identity                           |
 | Aaron Tetteh          | 45982 | Real-time / collaborative cart (Stream A) |
 | Priscilla Akuokor     | 17364 | Client services                           |
 | Emmanuel Grant Boamah | 90851 | Orders & payments (Stream C)              |
