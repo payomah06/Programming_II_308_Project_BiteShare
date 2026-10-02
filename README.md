@@ -101,7 +101,7 @@ See `CONTRIBUTING.md` for coding standards, branching, and PR process, `CODEOWNE
 | Aaron Tetteh          | 45982 | Real-time / collaborative cart (Stream A) |
 | Priscilla Akuoko    | 22056561| Client services                           |
 | Emmanuel Grant Boamah | 22154941 | Orders & payments (Stream C)              |
-| Obadiah Donkor        | 53629 | Sessions, catalog & tests                 |
+| Obadiah Donkor        | 22033341 | Sessions, catalog & tests                 |
 | Olivia Kwarteng        | 22041101 | Config & participants                     |
 
 ## Core domain model
