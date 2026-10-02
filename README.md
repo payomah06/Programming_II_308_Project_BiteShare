@@ -99,7 +99,7 @@ See `CONTRIBUTING.md` for coding standards, branching, and PR process, `CODEOWNE
 | Roselyn Sakyi         | 31795 | Data layer, cost splitter & receipts      |
 | Horaya Razak          | 22236215 | Auth & identity                           |
 | Aaron Tetteh          | 45982 | Real-time / collaborative cart (Stream A) |
-| Priscilla Akuokor     | 17364 | Client services                           |
+| Priscilla Akuoko    | 22056561| Client services                           |
 | Emmanuel Grant Boamah | 22154941 | Orders & payments (Stream C)              |
 | Obadiah Donkor        | 53629 | Sessions, catalog & tests                 |
 | Olivia Kwarteng        | 22041101 | Config & participants                     |
