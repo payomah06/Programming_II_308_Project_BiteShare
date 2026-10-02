@@ -100,7 +100,7 @@ See `CONTRIBUTING.md` for coding standards, branching, and PR process, `CODEOWNE
 | Horaya Razak          | 22236215 | Auth & identity                           |
 | Aaron Tetteh          | 45982 | Real-time / collaborative cart (Stream A) |
 | Priscilla Akuokor     | 17364 | Client services                           |
-| Emmanuel Grant Boamah | 90851 | Orders & payments (Stream C)              |
+| Emmanuel Grant Boamah | 22154941 | Orders & payments (Stream C)              |
 | Obadiah Donkor        | 53629 | Sessions, catalog & tests                 |
 | Olivia Kwarteng        | 22041101 | Config & participants                     |
 
