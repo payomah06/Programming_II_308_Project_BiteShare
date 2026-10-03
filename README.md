@@ -98,7 +98,7 @@ See `CONTRIBUTING.md` for coding standards, branching, and PR process, `CODEOWNE
 | Joseph Gyimah         | 11116307 | CI/CD & deployment                        |
 | Roselyn Sakyi         | 31795 | Data layer, cost splitter & receipts      |
 | Horaya Razak          | 22236215 | Auth & identity                           |
-| Aaron Tetteh          | 4592 | Real-time / collaborative cart (Stream A) |
+| Aaron Tetteh          | 22059189 | Real-time / collaborative cart (Stream A) |
 | Priscilla Akuoko    | 22056561| Client services                           |
 | Emmanuel Grant Boamah | 22154941 | Orders & payments (Stream C)              |
 | Obadiah Donkor        | 22033341 | Sessions, catalog & tests                 |
