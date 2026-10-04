@@ -96,7 +96,7 @@ See `CONTRIBUTING.md` for coding standards, branching, and PR process, `CODEOWNE
 | Somuah Kofi Anim      | 22013390 | Build & bootstrap                         |
 | Stephanie Apenteng    | 22044374 | Process, docs & README owner              |
 | Joseph Gyimah         | 11116307 | CI/CD & deployment                        |
-| Roselyn Sakyi         | 31795 | Data layer, cost splitter & receipts      |
+| Roselyn Sakyi         | 22012206| Data layer, cost splitter & receipts      |
 | Horaya Razak          | 22236215 | Auth & identity                           |
 | Aaron Tetteh          | 22059189 | Real-time / collaborative cart (Stream A) |
 | Priscilla Akuoko    | 22056561| Client services                           |
